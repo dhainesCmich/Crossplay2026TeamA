@@ -5,25 +5,34 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    public InputActionAsset InputActions;
 
+    [Header("Player Actions")]
+    public InputActionAsset InputActions;
     private InputAction m_moveAction;
     private InputAction m_jumpAction;
-    
     private InputAction m_pauseActionPlayer;
     private InputAction m_pauseActionUI;
 
+    private InputAction m_inventorySwitch;
+
+    [Header("Component Pieces")]
+    [SerializeField] Rigidbody2D rb;
     private Vector2 m_moveAmt;
-    private Rigidbody2D m_rigidbody2d;
     private Animator m_animator;
 
+    [Header("Player Settings")]
     public float WalkSpeed = 5;
     public float JumpSpeed = 5; 
 
+    [Header("Grounding")]
+    [SerializeField] LayerMask groundLayer;
+    [SerializeField] Transform groundCheck;
+
+    private float horizontal;
+
+    [Header("Outside Objects")]
     public GameObject PauseDisplay;
     public GameObject InventoryUI;
-
-    private InputAction m_inventorySwitch;
 
     private void OnEnable()
     {
@@ -39,7 +48,6 @@ public class PlayerController : MonoBehaviour
         m_moveAction = InputSystem.actions.FindAction("Move");
         m_jumpAction = InputSystem.actions.FindAction("Jump");
 
-        m_rigidbody2d = GetComponent<Rigidbody2D>();
         //m_animator = GetComponent<Animator>;
 
         m_pauseActionPlayer = InputSystem.actions.FindAction("Player/Pause");
@@ -51,25 +59,37 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        m_moveAmt = m_moveAction.ReadValue<Vector2>();
-
-        if (m_jumpAction.WasPressedThisFrame()) {
-            Jump();
-        }
-
         DisplayPause();
     }
 
     private void FixedUpdate()
     {
-        Walking();
+        rb.linearVelocity = new Vector2(horizontal * WalkSpeed, rb.linearVelocity.y);
+    }
+    
+    #region PLAYER_CONTROLS
+    public void Move(InputAction.CallbackContext context)
+    {
+       horizontal = context.ReadValue<Vector2>().x;
+    }
+    
+    public void Jump(InputAction.CallbackContext context) 
+    {
+        if (context.performed && IsGrounded())
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, JumpSpeed);    
+        }
+        else if (context.performed)
+        {
+            Debug.Log("No ground!"); 
+        }
     }
 
-    private void Walking() {
-        Debug.Log(m_moveAmt.x);
-        Debug.Log("transform.right = " + transform.right);
-        m_rigidbody2d.AddForce(transform.right * m_moveAmt.x * WalkSpeed * Time.deltaTime);
+    private bool IsGrounded()
+    {
+        return Physics2D.OverlapCapsule(groundCheck.position, new Vector2(1f, 0.1f), CapsuleDirection2D.Horizontal, 0, groundLayer);
     }
+    #endregion
 
     private void DisplayPause()
     {
@@ -96,8 +116,4 @@ public class PlayerController : MonoBehaviour
 	{
 		InventoryUI.SetActive(!InventoryUI.activeSelf);
 	}
-
-    public void Jump() {
-        m_rigidbody2d.AddForceAtPosition(new Vector2(0, 5f), Vector2.up, ForceMode2D.Impulse);
-    }
 }
