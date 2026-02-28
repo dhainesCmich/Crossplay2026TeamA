@@ -28,11 +28,17 @@ public class PlayerController : MonoBehaviour
     [SerializeField] LayerMask groundLayer;
     [SerializeField] Transform groundCheck;
 
+    private bool isFacingRight = true;
+
     private float horizontal;
 
     [Header("Outside Objects")]
     public GameObject PauseDisplay;
     public GameObject InventoryUI;
+
+    void Start() {
+        m_animator = GetComponent<Animator>();
+    }
 
     private void OnEnable()
     {
@@ -60,11 +66,13 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         DisplayPause();
+        FlipSprite();
     }
 
     private void FixedUpdate()
     {
         rb.linearVelocity = new Vector2(horizontal * WalkSpeed, rb.linearVelocity.y);
+        m_animator.SetFloat("xVelocity", Mathf.Abs(rb.linearVelocity.x));
     }
     
     #region PLAYER_CONTROLS
@@ -90,6 +98,17 @@ public class PlayerController : MonoBehaviour
         return Physics2D.OverlapCapsule(groundCheck.position, new Vector2(1f, 0.1f), CapsuleDirection2D.Horizontal, 0, groundLayer);
     }
     #endregion
+
+    void FlipSprite()
+    {
+        if(isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
+        {
+            isFacingRight = !isFacingRight;
+            Vector3 ls = transform.localScale;
+            ls.x *= -1f;
+            transform.localScale = ls;
+        }
+    }
 
     private void DisplayPause()
     {
