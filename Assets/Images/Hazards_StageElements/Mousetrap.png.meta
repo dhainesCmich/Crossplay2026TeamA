@@ -90,7 +90,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -142,12 +142,12 @@ TextureImporter:
       name: Mousetrap_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 575
-        width: 241
-        height: 54
+        x: 0
+        y: 562
+        width: 244
+        height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -164,12 +164,12 @@ TextureImporter:
       name: Mousetrap_1
       rect:
         serializedVersion: 2
-        x: 248
-        y: 575
-        width: 241
-        height: 56
+        x: 244
+        y: 562
+        width: 244
+        height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -186,12 +186,12 @@ TextureImporter:
       name: Mousetrap_2
       rect:
         serializedVersion: 2
-        x: 492
-        y: 575
-        width: 241
-        height: 113
+        x: 488
+        y: 562
+        width: 244
+        height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -208,12 +208,12 @@ TextureImporter:
       name: Mousetrap_3
       rect:
         serializedVersion: 2
-        x: 1
-        y: 438
-        width: 235
-        height: 87
+        x: 0
+        y: 422
+        width: 244
+        height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -230,12 +230,12 @@ TextureImporter:
       name: Mousetrap_4
       rect:
         serializedVersion: 2
-        x: 257
-        y: 438
-        width: 211
-        height: 123
+        x: 244
+        y: 422
+        width: 244
+        height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -252,12 +252,12 @@ TextureImporter:
       name: Mousetrap_5
       rect:
         serializedVersion: 2
-        x: 499
-        y: 468
-        width: 219
-        height: 63
+        x: 488
+        y: 422
+        width: 244
+        height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -274,12 +274,12 @@ TextureImporter:
       name: Mousetrap_6
       rect:
         serializedVersion: 2
-        x: 11
-        y: 294
-        width: 222
-        height: 106
+        x: 0
+        y: 282
+        width: 244
+        height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -296,12 +296,12 @@ TextureImporter:
       name: Mousetrap_7
       rect:
         serializedVersion: 2
-        x: 252
-        y: 287
-        width: 229
-        height: 107
+        x: 244
+        y: 282
+        width: 244
+        height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -318,12 +318,12 @@ TextureImporter:
       name: Mousetrap_8
       rect:
         serializedVersion: 2
-        x: 495
-        y: 283
-        width: 231
-        height: 108
+        x: 488
+        y: 282
+        width: 244
+        height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -340,12 +340,12 @@ TextureImporter:
       name: Mousetrap_9
       rect:
         serializedVersion: 2
-        x: 9
-        y: 159
-        width: 227
-        height: 57
+        x: 0
+        y: 142
+        width: 244
+        height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -362,12 +362,12 @@ TextureImporter:
       name: Mousetrap_10
       rect:
         serializedVersion: 2
-        x: 258
-        y: 152
-        width: 217
-        height: 57
+        x: 244
+        y: 142
+        width: 244
+        height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -384,12 +384,12 @@ TextureImporter:
       name: Mousetrap_11
       rect:
         serializedVersion: 2
-        x: 500
-        y: 141
-        width: 221
-        height: 72
+        x: 488
+        y: 142
+        width: 244
+        height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -406,12 +406,12 @@ TextureImporter:
       name: Mousetrap_12
       rect:
         serializedVersion: 2
-        x: 8
-        y: 7
-        width: 231
-        height: 57
+        x: 0
+        y: 2
+        width: 244
+        height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -428,12 +428,12 @@ TextureImporter:
       name: Mousetrap_13
       rect:
         serializedVersion: 2
-        x: 252
-        y: 12
-        width: 235
-        height: 55
+        x: 244
+        y: 2
+        width: 244
+        height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -450,7 +450,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3db813139baa9914388023abab27fe5b
     internalID: 0
     vertices: []
     indices: 
@@ -458,7 +458,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":5.0},"gridSpriteSize":{"x":244.0,"y":140.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Mousetrap_0: -7413490930562295272
       Mousetrap_1: -7038321123431722228

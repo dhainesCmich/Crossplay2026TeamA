@@ -1,0 +1,338 @@
+fileFormatVersion: 2
+guid: 8d7f22fb6a4244f46b29cd08a7a0d147
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6342294361589705547
+    second: BurnerFlame_2_400px_0
+  - first:
+      213: -990403648530029955
+    second: BurnerFlame_2_400px_1
+  - first:
+      213: -3462946208387360287
+    second: BurnerFlame_2_400px_2
+  - first:
+      213: 4542421043210842677
+    second: BurnerFlame_2_400px_3
+  - first:
+      213: -7396239890369253710
+    second: BurnerFlame_2_400px_4
+  - first:
+      213: -4991302712490474939
+    second: BurnerFlame_2_400px_5
+  - first:
+      213: -4912567828960929269
+    second: BurnerFlame_2_400px_6
+  - first:
+      213: 3573065387247566643
+    second: BurnerFlame_2_400px_7
+  - first:
+      213: 5337684593552302923
+    second: BurnerFlame_2_400px_8
+  - first:
+      213: -5944958867266093109
+    second: BurnerFlame_2_400px_9
+  - first:
+      213: 1518738746405367142
+    second: BurnerFlame_2_400px_10
+  - first:
+      213: -2180277748398439488
+    second: BurnerFlame_2_400px_11
+  - first:
+      213: 1539125734231178517
+    second: BurnerFlame_2_400px_12
+  - first:
+      213: -8414329135177304020
+    second: BurnerFlame_2_400px_13
+  - first:
+      213: -3352551390780677459
+    second: BurnerFlame_2_400px_14
+  - first:
+      213: -5334082091857472785
+    second: BurnerFlame_2_400px_15
+  - first:
+      213: -8755763036129441925
+    second: BurnerFlame_2_400px_16
+  - first:
+      213: -118560135277584085
+    second: BurnerFlame_2_400px_17
+  - first:
+      213: 7784461183900919530
+    second: BurnerFlame_2_400px_18
+  - first:
+      213: -8402952087103085252
+    second: BurnerFlame_2_400px_19
+  - first:
+      213: 6378904911062772205
+    second: BurnerFlame_2_400px_20
+  - first:
+      213: -4206131723135138565
+    second: BurnerFlame_2_400px_21
+  - first:
+      213: 2269711922491862501
+    second: BurnerFlame_2_400px_22
+  - first:
+      213: -3277410224616099791
+    second: BurnerFlame_2_400px_23
+  - first:
+      213: -5802849514242490425
+    second: BurnerFlame_2_400px_24
+  - first:
+      213: 6166503012167535654
+    second: BurnerFlame_2_400px_25
+  - first:
+      213: 6984090389187104793
+    second: BurnerFlame_2_400px_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BurnerFlame_2_400px_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 806
+        width: 403
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b64837e1b540850800000000000000
+      internalID: 6342294361589705547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BurnerFlame_2_400px_1
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 806
+        width: 403
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72ed1901216142f0800000000000000
+      internalID: -990403648530029955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BurnerFlame_2_400px_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 404
+        width: 403
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e919cc55c421ffc0800000000000000
+      internalID: -3462946208387360287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BurnerFlame_2_400px_3
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 404
+        width: 403
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53277dc3fdbe90f30800000000000000
+      internalID: 4542421043210842677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BurnerFlame_2_400px_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 403
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be67f4b1074b5990800000000000000
+      internalID: -7396239890369253710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BurnerFlame_2_400px_5
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2
+        width: 403
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542cf87c0a45bbab0800000000000000
+      internalID: -4991302712490474939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4930f2be1f9dd5048b09c68355ae1aee
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":3.0},"gridSpriteSize":{"x":403.0,"y":402.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      BurnerFlame_2_400px_0: 6342294361589705547
+      BurnerFlame_2_400px_1: -990403648530029955
+      BurnerFlame_2_400px_2: -3462946208387360287
+      BurnerFlame_2_400px_3: 4542421043210842677
+      BurnerFlame_2_400px_4: -7396239890369253710
+      BurnerFlame_2_400px_5: -4991302712490474939
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

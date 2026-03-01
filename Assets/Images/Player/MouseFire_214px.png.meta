@@ -1,0 +1,344 @@
+fileFormatVersion: 2
+guid: 5837f4c580a3df94898eca9b2281a5f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8480922102769213309
+    second: MouseFire_214px_0
+  - first:
+      213: 7680398972987462615
+    second: MouseFire_214px_1
+  - first:
+      213: -5234050863357686947
+    second: MouseFire_214px_2
+  - first:
+      213: -8781073596359427418
+    second: MouseFire_214px_3
+  - first:
+      213: 7934304346017006002
+    second: MouseFire_214px_4
+  - first:
+      213: -3112805802185737083
+    second: MouseFire_214px_5
+  - first:
+      213: -5193349180166145433
+    second: MouseFire_214px_6
+  - first:
+      213: 2980653362809941267
+    second: MouseFire_214px_7
+  - first:
+      213: 1701956555577578413
+    second: MouseFire_214px_8
+  - first:
+      213: 2865728678423226493
+    second: MouseFire_214px_9
+  - first:
+      213: -5002669699778852351
+    second: MouseFire_214px_10
+  - first:
+      213: 1135788131334796370
+    second: MouseFire_214px_11
+  - first:
+      213: -4212505442333741899
+    second: MouseFire_214px_12
+  - first:
+      213: 5896423699355091756
+    second: MouseFire_214px_13
+  - first:
+      213: 5191770995535861062
+    second: MouseFire_214px_14
+  - first:
+      213: -5308859823600836117
+    second: MouseFire_214px_15
+  - first:
+      213: -6632034171548147015
+    second: MouseFire_214px_16
+  - first:
+      213: 653953487042299246
+    second: MouseFire_214px_17
+  - first:
+      213: -6405533123140840708
+    second: MouseFire_214px_18
+  - first:
+      213: -5287029204326082012
+    second: MouseFire_214px_19
+  - first:
+      213: 5283963177210994840
+    second: MouseFire_214px_20
+  - first:
+      213: 1754223411092011019
+    second: MouseFire_214px_21
+  - first:
+      213: 8983841965297876081
+    second: MouseFire_214px_22
+  - first:
+      213: -4248427104893812681
+    second: MouseFire_214px_23
+  - first:
+      213: -1806024764100062701
+    second: MouseFire_214px_24
+  - first:
+      213: -6431466840845858728
+    second: MouseFire_214px_25
+  - first:
+      213: 5628846140150262106
+    second: MouseFire_214px_26
+  - first:
+      213: -2426988559762162907
+    second: MouseFire_214px_27
+  - first:
+      213: -2837409301689387818
+    second: MouseFire_214px_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MouseFire_214px_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 434
+        width: 217
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380aea80846bd4a80800000000000000
+      internalID: -8480922102769213309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseFire_214px_1
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 434
+        width: 217
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d351366c22469a60800000000000000
+      internalID: 7680398972987462615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseFire_214px_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 218
+        width: 217
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b0d31987aec57b0800000000000000
+      internalID: -5234050863357686947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseFire_214px_3
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 218
+        width: 217
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa3f66961c532680800000000000000
+      internalID: -8781073596359427418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseFire_214px_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 217
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b18e24d3cf4c1e60800000000000000
+      internalID: 7934304346017006002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseFire_214px_5
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 2
+        width: 217
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58cb1f18d971dc4d0800000000000000
+      internalID: -3112805802185737083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 40e2df69b12bf7c448638c7926b7a667
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":3.0},"gridSpriteSize":{"x":217.0,"y":216.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      MouseFire_214px_0: -8480922102769213309
+      MouseFire_214px_1: 7680398972987462615
+      MouseFire_214px_2: -5234050863357686947
+      MouseFire_214px_3: -8781073596359427418
+      MouseFire_214px_4: 7934304346017006002
+      MouseFire_214px_5: -3112805802185737083
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
