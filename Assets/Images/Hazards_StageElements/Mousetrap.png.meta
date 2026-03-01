@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 1415b6c1cd701254f9c944964aaeb876
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7413490930562295272
+    second: Mousetrap_0
+  - first:
+      213: -7038321123431722228
+    second: Mousetrap_1
+  - first:
+      213: -5864525716654610197
+    second: Mousetrap_2
+  - first:
+      213: 7421191029698108280
+    second: Mousetrap_3
+  - first:
+      213: 5748551961357407684
+    second: Mousetrap_4
+  - first:
+      213: -8589840888551746778
+    second: Mousetrap_5
+  - first:
+      213: -9020307511564590671
+    second: Mousetrap_6
+  - first:
+      213: 9054786961048815418
+    second: Mousetrap_7
+  - first:
+      213: -7361434435392776767
+    second: Mousetrap_8
+  - first:
+      213: -2379529884909060771
+    second: Mousetrap_9
+  - first:
+      213: 5784241946134618072
+    second: Mousetrap_10
+  - first:
+      213: -8116550369140445649
+    second: Mousetrap_11
+  - first:
+      213: 8628422616880835629
+    second: Mousetrap_12
+  - first:
+      213: -6943148775072145421
+    second: Mousetrap_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mousetrap_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 575
+        width: 241
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a114ae64dfd1990800000000000000
+      internalID: -7413490930562295272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mousetrap_1
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 575
+        width: 241
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0359b69a3cd25e90800000000000000
+      internalID: -7038321123431722228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mousetrap_2
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 575
+        width: 241
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be8a8aaaee40d9ea0800000000000000
+      internalID: -5864525716654610197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mousetrap_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 438
+        width: 235
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b987f1ced5df660800000000000000
+      internalID: 7421191029698108280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mousetrap_4
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 438
+        width: 211
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5559d3d85f6cf40800000000000000
+      internalID: 5748551961357407684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mousetrap_5
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 468
+        width: 219
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6235fb80931cac880800000000000000
+      internalID: -8589840888551746778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mousetrap_6
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 294
+        width: 222
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1a7602c1e61d280800000000000000
+      internalID: -9020307511564590671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mousetrap_7
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 287
+        width: 229
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a37472a44c019ad70800000000000000
+      internalID: 9054786961048815418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mousetrap_8
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 283
+        width: 231
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5d511326ee6d990800000000000000
+      internalID: -7361434435392776767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mousetrap_9
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 159
+        width: 227
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5db19d4d263afed0800000000000000
+      internalID: -2379529884909060771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mousetrap_10
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 152
+        width: 217
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df944e5761c54050800000000000000
+      internalID: 5784241946134618072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mousetrap_11
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 141
+        width: 221
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e61dd41783c5f80800000000000000
+      internalID: -8116550369140445649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mousetrap_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 7
+        width: 231
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ce02b97a05eb770800000000000000
+      internalID: 8628422616880835629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mousetrap_13
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 12
+        width: 235
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ffd227b9faf4af90800000000000000
+      internalID: -6943148775072145421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mousetrap_0: -7413490930562295272
+      Mousetrap_1: -7038321123431722228
+      Mousetrap_10: 5784241946134618072
+      Mousetrap_11: -8116550369140445649
+      Mousetrap_12: 8628422616880835629
+      Mousetrap_13: -6943148775072145421
+      Mousetrap_2: -5864525716654610197
+      Mousetrap_3: 7421191029698108280
+      Mousetrap_4: 5748551961357407684
+      Mousetrap_5: -8589840888551746778
+      Mousetrap_6: -9020307511564590671
+      Mousetrap_7: 9054786961048815418
+      Mousetrap_8: -7361434435392776767
+      Mousetrap_9: -2379529884909060771
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

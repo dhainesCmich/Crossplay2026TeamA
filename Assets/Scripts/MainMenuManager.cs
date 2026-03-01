@@ -23,6 +23,10 @@ public class MainMenuManager : MonoBehaviour
     {
         if(NewGameButton)
             NewGameButton.onClick.AddListener(StartNewGame);
+        if(CreditsButton)
+            CreditsButton.onClick.AddListener(ShowCredits);
+        if(ReturnToMenuButton)
+            ReturnToMenuButton.onClick.AddListener(ShowMainMenu);
 
         ShowMainMenu();
     }
