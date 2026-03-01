@@ -1188,6 +1188,7 @@ MonoBehaviour:
   MainMenuCanvas: {fileID: 1724551023}
   NewGameButton: {fileID: 951950995}
   CreditsButton: {fileID: 712676017}
+  QuitButton: {fileID: 824057129}
   NewGameScene: Level1
   CreditsCanvas: {fileID: 105274544}
   ReturnToMenuButton: {fileID: 1486986730}

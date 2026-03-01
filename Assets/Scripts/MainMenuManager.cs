@@ -10,6 +10,7 @@ public class MainMenuManager : MonoBehaviour
     public GameObject MainMenuCanvas;
     public Button NewGameButton;
     public Button CreditsButton;
+    public Button QuitButton;
     
     [Header("Scenes")]
     public string NewGameScene;
@@ -27,6 +28,8 @@ public class MainMenuManager : MonoBehaviour
             CreditsButton.onClick.AddListener(ShowCredits);
         if(ReturnToMenuButton)
             ReturnToMenuButton.onClick.AddListener(ShowMainMenu);
+        if(QuitButton)
+            QuitButton.onClick.AddListener(QuitGame);
 
         ShowMainMenu();
     }
@@ -51,5 +54,10 @@ public class MainMenuManager : MonoBehaviour
     {
         CreditsCanvas.SetActive(false);
         MainMenuCanvas.SetActive(true);
+    }
+
+    void QuitGame()
+    {
+        Application.Quit();
     }
 }
