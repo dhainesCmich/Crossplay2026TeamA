@@ -1213,6 +1213,7 @@ MonoBehaviour:
   MainMenuCanvas: {fileID: 1724551023}
   NewGameButton: {fileID: 951950995}
   CreditsButton: {fileID: 712676017}
+  NewGameScene: Kitchen_Stovetop
   CreditsCanvas: {fileID: 105274544}
   ReturnToMenuButton: {fileID: 1486986730}
 --- !u!4 &1312048014

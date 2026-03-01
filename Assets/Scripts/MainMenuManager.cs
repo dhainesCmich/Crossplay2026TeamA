@@ -10,6 +10,9 @@ public class MainMenuManager : MonoBehaviour
     public GameObject MainMenuCanvas;
     public Button NewGameButton;
     public Button CreditsButton;
+    
+    [Header("Scenes")]
+    public string NewGameScene;
 
     [Header("Credits")]
     public GameObject CreditsCanvas;
@@ -27,7 +30,11 @@ public class MainMenuManager : MonoBehaviour
     // Update is called once per frame
     void StartNewGame()
     {
-        
+        if (NewGameScene != null)
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            SceneManager.LoadScene(NewGameScene);
+        }
     }
 
     void ShowCredits()
