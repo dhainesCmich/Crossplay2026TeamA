@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2b8e1e25cb2d1c3409fea2b762fc5bd5
+guid: 611061540b9616141a70f9cd3bd87fda
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7523970955242101793
-    second: Lettuce_0
+      213: 2605756565826460029
+    second: Spaghetti_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Lettuce_0
+      name: Spaghetti_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 104
-        height: 105
+        width: 314
+        height: 218
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fd32078a74c759790800000000000000
-      internalID: -7523970955242101793
+      spriteID: d795a3d6ac1892420800000000000000
+      internalID: 2605756565826460029
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Lettuce_0: -7523970955242101793
+      Spaghetti_0: 2605756565826460029
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

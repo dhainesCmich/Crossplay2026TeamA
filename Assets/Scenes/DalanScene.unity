@@ -127,6 +127,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5772662298068581623, guid: 27e5acae644ebee47b622d3465dd1285, type: 3}
+      propertyPath: promptCanvas
+      value: 
+      objectReference: {fileID: 5860751362602114451, guid: 321bf2ba3f9f1804cb1b2b08afed49f0, type: 3}
+    - target: {fileID: 5772662298068581623, guid: 27e5acae644ebee47b622d3465dd1285, type: 3}
+      propertyPath: promptManager
+      value: 
+      objectReference: {fileID: 1020359635}
     - target: {fileID: 6464492925816361756, guid: 27e5acae644ebee47b622d3465dd1285, type: 3}
       propertyPath: m_Name
       value: Cheese
@@ -547,6 +555,51 @@ MonoBehaviour:
     Time: 0
     Smoothing: 1.5
     IgnoreY: 1
+--- !u!1 &1020359634
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1020359636}
+  - component: {fileID: 1020359635}
+  m_Layer: 0
+  m_Name: PromptManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1020359635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020359634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9231f74111c2714b9ec1cedd0ff7371, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  promptPrefab: {fileID: 5860751362602114451, guid: 321bf2ba3f9f1804cb1b2b08afed49f0, type: 3}
+--- !u!4 &1020359636
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020359634}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1083626306
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -555,6 +608,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5772662298068581623, guid: bf2c911c6335ed242bf1cf2fdb6f60d4, type: 3}
+      propertyPath: promptCanvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5772662298068581623, guid: bf2c911c6335ed242bf1cf2fdb6f60d4, type: 3}
+      propertyPath: promptManager
+      value: 
+      objectReference: {fileID: 1020359635}
     - target: {fileID: 6464492925816361756, guid: bf2c911c6335ed242bf1cf2fdb6f60d4, type: 3}
       propertyPath: m_Name
       value: Egg
@@ -874,6 +935,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1009110736247293662, guid: ddcf2a657c6a30c4c91b06685a9a454d, type: 3}
+      propertyPath: promptPrefab
+      value: 
+      objectReference: {fileID: 5860751362602114451, guid: 321bf2ba3f9f1804cb1b2b08afed49f0, type: 3}
     - target: {fileID: 2440342952669048224, guid: ddcf2a657c6a30c4c91b06685a9a454d, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -1142,6 +1207,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1061927131239424571, guid: 1ff3c54e80f988248a0db39d4125b095, type: 3}
+      propertyPath: prefabParent
+      value: 
+      objectReference: {fileID: 571086961}
     - target: {fileID: 2372371359050385024, guid: 1ff3c54e80f988248a0db39d4125b095, type: 3}
       propertyPath: m_Name
       value: RecipeUIPrefab
@@ -1212,12 +1281,24 @@ PrefabInstance:
       value: FunctioningPan
       objectReference: {fileID: 0}
     - target: {fileID: 6423262891313273168, guid: 7edd2f48e2f78c647a29efbc7903e13e, type: 3}
+      propertyPath: promptCanvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6423262891313273168, guid: 7edd2f48e2f78c647a29efbc7903e13e, type: 3}
       propertyPath: recipeMenuUI
       value: 
       objectReference: {fileID: 571086961}
+    - target: {fileID: 6423262891313273168, guid: 7edd2f48e2f78c647a29efbc7903e13e, type: 3}
+      propertyPath: promptManager
+      value: 
+      objectReference: {fileID: 1020359635}
+    - target: {fileID: 6423262891313273168, guid: 7edd2f48e2f78c647a29efbc7903e13e, type: 3}
+      propertyPath: interactionRadius
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 8318680362099154659, guid: 7edd2f48e2f78c647a29efbc7903e13e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.85
+      value: 15.88
       objectReference: {fileID: 0}
     - target: {fileID: 8318680362099154659, guid: 7edd2f48e2f78c647a29efbc7903e13e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1276,3 +1357,4 @@ SceneRoots:
   - {fileID: 1083626306}
   - {fileID: 232930564}
   - {fileID: 1946110549714711228}
+  - {fileID: 1020359636}
