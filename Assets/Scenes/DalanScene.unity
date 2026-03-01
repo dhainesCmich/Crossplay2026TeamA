@@ -1230,17 +1230,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1061927131239424571, guid: 1ff3c54e80f988248a0db39d4125b095, type: 3}
-      propertyPath: prefabParent
-      value: 
-      objectReference: {fileID: 571086961}
     - target: {fileID: 2372371359050385024, guid: 1ff3c54e80f988248a0db39d4125b095, type: 3}
       propertyPath: m_Name
       value: RecipeUIPrefab
-      objectReference: {fileID: 0}
-    - target: {fileID: 2372371359050385024, guid: 1ff3c54e80f988248a0db39d4125b095, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5440417853429267472, guid: 1ff3c54e80f988248a0db39d4125b095, type: 3}
       propertyPath: m_LocalPosition.x
