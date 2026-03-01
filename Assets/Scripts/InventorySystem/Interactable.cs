@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Interactable : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class Interactable : MonoBehaviour
     protected Transform player;
     protected virtual void Update()
     {
-        if (playerInRange && Input.GetKeyDown(KeyCode.E))
+        if (playerInRange && Keyboard.current.eKey.wasPressedThisFrame)
         {
             Interact();
         }
