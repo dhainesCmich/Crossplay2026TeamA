@@ -9,6 +9,10 @@ public class RecipeManager : MonoBehaviour
 
     private void Awake()
     {
+        if (instance != null)
+        {
+            Destroy(gameObject);
+        }
         instance = this;
     }
 

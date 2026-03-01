@@ -3,7 +3,18 @@ using UnityEngine.UI;
 
 public class RecipeMenuUI : MonoBehaviour
 {
+    [Header("UI Elements")]
+    public Button closeButton;
     public Text recipeResultText;
+    public GameObject prefabParent;
+
+    private void Awake()
+    {
+        if(closeButton)
+        {
+            closeButton.onClick.AddListener(CloseMenu);
+        }
+    }
 
     public void TryCook()
     {
@@ -28,6 +39,6 @@ public class RecipeMenuUI : MonoBehaviour
 
     public void CloseMenu()
     {
-        gameObject.SetActive(false);
+        prefabParent.SetActive(false);
     }
 }
