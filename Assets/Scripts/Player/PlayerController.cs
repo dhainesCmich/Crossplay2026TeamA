@@ -56,10 +56,12 @@ public class PlayerController : MonoBehaviour
     [Header("Outside Objects")]
     public GameObject PauseDisplay;
     public GameObject InventoryUI;
+    public Animator effectsAnimator;
 
     void Start() 
     {
         m_animator = GetComponent<Animator>();
+        effectsAnimator.gameObject.SetActive(false);
         transform.position = PlayerSpawnManager.spawnPosition;
     }
 
