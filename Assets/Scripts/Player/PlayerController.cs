@@ -73,6 +73,7 @@ public class PlayerController : MonoBehaviour
     {
         rb.linearVelocity = new Vector2(horizontal * WalkSpeed, rb.linearVelocity.y);
         m_animator.SetFloat("xVelocity", Mathf.Abs(rb.linearVelocity.x));
+        m_animator.SetBool("isJumping", !IsGrounded());
     }
     
     #region PLAYER_CONTROLS
@@ -85,7 +86,7 @@ public class PlayerController : MonoBehaviour
     {
         if (context.performed && IsGrounded())
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, JumpSpeed);    
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, JumpSpeed);
         }
         else if (context.performed)
         {
