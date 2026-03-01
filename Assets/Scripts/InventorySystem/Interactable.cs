@@ -24,7 +24,7 @@ public class Interactable : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerInRange = true;
-            player = other.transform;
+            player = other.transform;   
         }
     }
     private void OnTriggerExit2D(Collider2D other)

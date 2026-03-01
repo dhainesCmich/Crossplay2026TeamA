@@ -4,6 +4,6 @@ using UnityEngine;
 public class Recipe : ScriptableObject
 {
     public string recipeName;
-    public FoodItem[] ingredients;
+    public Food[] ingredients;
     public FoodItem result;
 }

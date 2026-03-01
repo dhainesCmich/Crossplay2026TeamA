@@ -18,13 +18,15 @@ public class RecipeManager : MonoBehaviour
         {
             bool match = true;
 
-            foreach (FoodItem ingredient in recipe.ingredients)
+            foreach (Food ingredient in recipe.ingredients)
             {
                 if (!inventoryItems.Contains(ingredient))
                 {
                     match = false;
+                    Debug.Log(ingredient + " is not here!");
                     break;
                 }
+                Debug.Log(ingredient + " is here!");
             }
 
             if (match)

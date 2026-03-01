@@ -11,7 +11,7 @@ public class RecipeMenuUI : MonoBehaviour
 
         if (recipe != null)
         {
-            foreach (FoodItem ingredient in recipe.ingredients)
+            foreach (Food ingredient in recipe.ingredients)
             {
                 Inventory.instance.Remove(ingredient);
             }
