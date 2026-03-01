@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 804fdb2e0bed114429cdb2e13a1c4235, type: 3}
-  m_Name: OmeletteCooked
+  m_Name: Sandwich
   m_EditorClassIdentifier: Assembly-CSharp::FoodItem
-  name: Cooked Omelette
-  icon: {fileID: 21300000, guid: 326ddaeda79b6e245a41b59c45bace89, type: 3}
+  name: Sandwich
+  icon: {fileID: 21300000, guid: 83099eadceacfac49aafe2deeac9f102, type: 3}
   isDefaultItem: 0
-  nutritionValue: 5
+  nutritionValue: 7
   isCooked: 1
