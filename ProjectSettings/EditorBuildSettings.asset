@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 1acbb969c15f4544db11be3d2700685b
   - enabled: 1
-    path: Assets/Scenes/Kitchen_Stovetop.unity
+    path: Assets/Scenes/Level1.unity
     guid: 6b6a28ca57e1f2647aa975834c436fe7
   - enabled: 1
     path: Assets/Scenes/Kitchen_Countertop_Left.unity
