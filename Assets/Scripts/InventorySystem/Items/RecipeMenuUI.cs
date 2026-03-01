@@ -39,6 +39,7 @@ public class RecipeMenuUI : MonoBehaviour
 
     public void CloseMenu()
     {
+        Cursor.lockState = CursorLockMode.Locked;
         prefabParent.SetActive(false);
     }
 }

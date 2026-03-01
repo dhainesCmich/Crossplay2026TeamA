@@ -13,5 +13,6 @@ public class CookingPan : Interactable
     void OpenRecipeMenu()
     {
         recipeMenuUI.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
     }
 }

@@ -57,6 +57,7 @@ public class PlayerController : MonoBehaviour
     public GameObject PauseDisplay;
     public GameObject InventoryUI;
     public Animator effectsAnimator;
+    public AudioSource playerSounds;
 
     void Start() 
     {
@@ -120,6 +121,7 @@ public class PlayerController : MonoBehaviour
         if (context.performed && IsGrounded())
         {
             isJumping = true;
+            playerSounds.Play();
             jumpTimeCounter = JumpHoldTime;
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, JumpSpeed);
         }
@@ -147,25 +149,31 @@ public class PlayerController : MonoBehaviour
         if (m_pauseActionPlayer.WasPressedThisFrame())
         {
             PauseDisplay.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
             InputActions.FindActionMap("Player").Disable();
             InputActions.FindActionMap("UI").Enable();
         }
         else if (m_pauseActionUI.WasPressedThisFrame())
         {
             PauseDisplay.SetActive(false);
+            Cursor.lockState = CursorLockMode.Locked;
             InputActions.FindActionMap("UI").Disable();
             InputActions.FindActionMap("Player").Enable();
         }
 
         if (m_inventorySwitch.WasPressedThisFrame())
 		{
-			SwitchInventory();
+			SwitchInventory();  
 		}
     }
 
     public void SwitchInventory()
 	{
 		InventoryUI.SetActive(!InventoryUI.activeSelf);
+        if (InventoryUI.activeSelf)
+            Cursor.lockState = CursorLockMode.None;
+        else
+            Cursor.lockState = CursorLockMode.Locked;
 	}
     public void JumpHold()
     {
