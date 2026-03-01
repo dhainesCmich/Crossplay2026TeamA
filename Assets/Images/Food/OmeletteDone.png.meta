@@ -1,0 +1,463 @@
+fileFormatVersion: 2
+guid: f9308a0006068154f9f94a43e703977f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -91829653263378148
+    second: OmeletteDone_0
+  - first:
+      213: 8550025676406308545
+    second: OmeletteDone_1
+  - first:
+      213: -5515627368109285363
+    second: OmeletteDone_2
+  - first:
+      213: 7837789006286881577
+    second: OmeletteDone_3
+  - first:
+      213: 8801687456745290128
+    second: OmeletteDone_4
+  - first:
+      213: -7368436423171462763
+    second: OmeletteDone_5
+  - first:
+      213: -8773241184837412984
+    second: OmeletteDone_6
+  - first:
+      213: -3863698770472382437
+    second: OmeletteDone_7
+  - first:
+      213: -6312141894040572734
+    second: OmeletteDone_8
+  - first:
+      213: 3498222730637300447
+    second: OmeletteDone_9
+  - first:
+      213: -7557644141285429469
+    second: OmeletteDone_10
+  - first:
+      213: -2097972855414708441
+    second: OmeletteDone_11
+  - first:
+      213: -5275078559696850889
+    second: OmeletteDone_12
+  - first:
+      213: 700725646563216923
+    second: OmeletteDone_13
+  - first:
+      213: 4192343277970749142
+    second: OmeletteDone_14
+  - first:
+      213: -5882057819039324656
+    second: OmeletteDone_15
+  - first:
+      213: 4504581168249867724
+    second: OmeletteDone_16
+  - first:
+      213: 2203584495404735700
+    second: OmeletteDone_17
+  - first:
+      213: -6489690666830520562
+    second: OmeletteDone_18
+  - first:
+      213: -4113042029488384148
+    second: OmeletteDone_19
+  - first:
+      213: -1279224845196416525
+    second: OmeletteDone_20
+  - first:
+      213: 3328834037671454520
+    second: OmeletteDone_21
+  - first:
+      213: -4130187174342003945
+    second: OmeletteDone_22
+  - first:
+      213: 7487241897316437351
+    second: OmeletteDone_23
+  - first:
+      213: -3827501951894352970
+    second: OmeletteDone_24
+  - first:
+      213: 5798362166416095955
+    second: OmeletteDone_25
+  - first:
+      213: 7591367451848253008
+    second: OmeletteDone_26
+  - first:
+      213: -2707554915430117573
+    second: OmeletteDone_27
+  - first:
+      213: -3493159065236991992
+    second: OmeletteDone_28
+  - first:
+      213: -6446810552513249239
+    second: OmeletteDone_29
+  - first:
+      213: 9210893419720386775
+    second: OmeletteDone_30
+  - first:
+      213: 5637981929288203697
+    second: OmeletteDone_31
+  - first:
+      213: 5249786363077720952
+    second: OmeletteDone_32
+  - first:
+      213: 6907508984193246124
+    second: OmeletteDone_33
+  - first:
+      213: -4191087742254050939
+    second: OmeletteDone_34
+  - first:
+      213: 3023907128491324501
+    second: OmeletteDone_35
+  - first:
+      213: 1426437486586895064
+    second: OmeletteDone_36
+  - first:
+      213: -7030049080294691758
+    second: OmeletteDone_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OmeletteDone_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1190
+        width: 490
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c199369ba61c9bef0800000000000000
+      internalID: -91829653263378148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OmeletteDone_1
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1190
+        width: 490
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cebaae7d0bc7a670800000000000000
+      internalID: 8550025676406308545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OmeletteDone_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 893
+        width: 490
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d006c6ab12e8473b0800000000000000
+      internalID: -5515627368109285363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OmeletteDone_3
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 893
+        width: 490
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9230138239b65cc60800000000000000
+      internalID: 7837789006286881577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OmeletteDone_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 596
+        width: 490
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099705bcb10e52a70800000000000000
+      internalID: 8801687456745290128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OmeletteDone_5
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 596
+        width: 490
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599a0dedc1e0eb990800000000000000
+      internalID: -7368436423171462763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OmeletteDone_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 299
+        width: 490
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88750f000af2f3680800000000000000
+      internalID: -8773241184837412984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OmeletteDone_7
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 299
+        width: 490
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1051e26072616ac0800000000000000
+      internalID: -3863698770472382437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OmeletteDone_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 490
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cca9d9f364c668a0800000000000000
+      internalID: -6312141894040572734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OmeletteDone_9
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 2
+        width: 490
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd255d40a0f2c8030800000000000000
+      internalID: 3498222730637300447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 15155d6e08a354841a8e926139d56131
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":5.0},"gridSpriteSize":{"x":490.0,"y":297.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      OmeletteDone_0: -91829653263378148
+      OmeletteDone_1: 8550025676406308545
+      OmeletteDone_2: -5515627368109285363
+      OmeletteDone_3: 7837789006286881577
+      OmeletteDone_4: 8801687456745290128
+      OmeletteDone_5: -7368436423171462763
+      OmeletteDone_6: -8773241184837412984
+      OmeletteDone_7: -3863698770472382437
+      OmeletteDone_8: -6312141894040572734
+      OmeletteDone_9: 3498222730637300447
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
