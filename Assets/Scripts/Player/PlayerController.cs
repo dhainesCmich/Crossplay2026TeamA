@@ -1,5 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Data.Common;
+using System.Data.SqlTypes;
+using System.Diagnostics;
+using System.Diagnostics.Contracts;
+using System.Linq.Expressions;
+using System.Runtime.CompilerServices;
+using System.Runtime.Serialization.Formatters;
+using System.Security;
+using System.Security.Cryptography;
+using System.Security.Cryptography.X509Certificates;
+using System.Timers;
+using System.Xml;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -17,12 +31,19 @@ public class PlayerController : MonoBehaviour
 
     [Header("Component Pieces")]
     [SerializeField] Rigidbody2D rb;
+    [SerializeField] private BoxCollider2D playerCollider;
     private Vector2 m_moveAmt;
     private Animator m_animator;
 
     [Header("Player Settings")]
     public float WalkSpeed = 5;
     public float JumpSpeed = 5; 
+    [Header("Jump Tuning")]
+    public float JumpHoldForce = 10f;
+    public float JumpHoldTime = 0.5f;
+    public float FallGravityMultiplier = 2.5f;
+    private bool isJumping;
+    private float jumpTimeCounter;
 
     [Header("Grounding")]
     [SerializeField] LayerMask groundLayer;
@@ -36,8 +57,10 @@ public class PlayerController : MonoBehaviour
     public GameObject PauseDisplay;
     public GameObject InventoryUI;
 
-    void Start() {
+    void Start() 
+    {
         m_animator = GetComponent<Animator>();
+        transform.position = PlayerSpawnManager.spawnPosition;
     }
 
     private void OnEnable()
@@ -67,6 +90,7 @@ public class PlayerController : MonoBehaviour
     {
         DisplayPause();
         FlipSprite();
+        JumpHold();
     }
 
     private void FixedUpdate()
@@ -79,18 +103,23 @@ public class PlayerController : MonoBehaviour
     #region PLAYER_CONTROLS
     public void Move(InputAction.CallbackContext context)
     {
-       horizontal = context.ReadValue<Vector2>().x;
+        Vector2 input = context.ReadValue<Vector2>();
+        horizontal = input.x;
+
+        // Drop through platform
+        if (input.y < -0.5f && IsGrounded())
+        {
+            StartCoroutine(DropThroughPlatform());
+        }
     }
     
     public void Jump(InputAction.CallbackContext context) 
     {
         if (context.performed && IsGrounded())
         {
+            isJumping = true;
+            jumpTimeCounter = JumpHoldTime;
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, JumpSpeed);
-        }
-        else if (context.performed)
-        {
-            Debug.Log("No ground!"); 
         }
     }
 
@@ -136,4 +165,35 @@ public class PlayerController : MonoBehaviour
 	{
 		InventoryUI.SetActive(!InventoryUI.activeSelf);
 	}
+    public void JumpHold()
+    {
+        //Variable jump height based on how long the player holds the jump button
+        if (isJumping && m_jumpAction.IsPressed())
+        {
+            if (jumpTimeCounter > 0)
+            {
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, JumpHoldForce);
+                jumpTimeCounter -= Time.deltaTime;
+            }
+            else
+            {
+                isJumping = false;
+            }
+        }
+        if (m_jumpAction.WasReleasedThisFrame())
+        {
+            isJumping = false;
+        }
+        // Better falling
+        if (rb.linearVelocity.y < 0)
+        {
+            rb.linearVelocity += Vector2.up * Physics2D.gravity * (FallGravityMultiplier - 1) * Time.deltaTime;
+        }
+    }
+    private IEnumerator DropThroughPlatform()
+    {
+        playerCollider.enabled = false;
+        yield return new WaitForSeconds(0.5f);
+        playerCollider.enabled = true;
+    }
 }
