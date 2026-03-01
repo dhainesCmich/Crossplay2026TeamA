@@ -1,136 +1,61 @@
 fileFormatVersion: 2
-guid: 1be0a6d2e0fa2d44e9e52e8d0e74ee37
+guid: b5201ed5b8f3f784ea9701cd698df0e9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8758199282619427438
-    second: EggSpritesheet_0
+      213: 64364096196780741
+    second: OmeletteCooking_0
   - first:
-      213: -916411178496489549
-    second: EggSpritesheet_1
+      213: 3270984200210048965
+    second: OmeletteCooking_1
   - first:
-      213: 6411616102226846967
-    second: EggSpritesheet_2
+      213: -9155720638565027464
+    second: OmeletteCooking_2
   - first:
-      213: -7981719381298949191
-    second: EggSpritesheet_3
+      213: -4037816151578315935
+    second: OmeletteCooking_3
   - first:
-      213: 6537884740909098713
-    second: EggSpritesheet_4
+      213: -8749792091744551137
+    second: OmeletteCooking_4
   - first:
-      213: 9144146509854612060
-    second: EggSpritesheet_5
+      213: 6287399585415437406
+    second: OmeletteCooking_5
   - first:
-      213: 242900579139868028
-    second: EggSpritesheet_6
+      213: 1823475099009586568
+    second: OmeletteCooking_6
   - first:
-      213: 5031215655273305012
-    second: EggSpritesheet_7
+      213: -3509135241041435749
+    second: OmeletteCooking_7
   - first:
-      213: -1289364797323747506
-    second: EggSpritesheet_8
+      213: 1404531535119958449
+    second: OmeletteCooking_8
   - first:
-      213: -240319933627990122
-    second: EggSpritesheet_9
+      213: 5723308510290445426
+    second: OmeletteCooking_9
   - first:
-      213: -5294583981880289342
-    second: EggSpritesheet_10
+      213: 8440948882242728466
+    second: OmeletteCooking_10
   - first:
-      213: 24265792836787681
-    second: EggSpritesheet_11
+      213: 3734264835027613408
+    second: OmeletteCooking_11
   - first:
-      213: 1788182256007408800
-    second: EggSpritesheet_12
+      213: -6213227923341775690
+    second: OmeletteCooking_12
   - first:
-      213: -8598119135230375218
-    second: EggSpritesheet_13
+      213: -7418480304428471777
+    second: OmeletteCooking_13
   - first:
-      213: -8602350851630724469
-    second: EggSpritesheet_14
+      213: -4909470465018622413
+    second: OmeletteCooking_14
   - first:
-      213: 5586825784719398932
-    second: EggSpritesheet_15
+      213: 4713437142924950433
+    second: OmeletteCooking_15
   - first:
-      213: 8559259949400702570
-    second: EggSpritesheet_16
+      213: 3606561639657227620
+    second: OmeletteCooking_16
   - first:
-      213: -7727249610138712610
-    second: EggSpritesheet_17
-  - first:
-      213: 6737031125124434125
-    second: EggSpritesheet_18
-  - first:
-      213: 7534257297258078391
-    second: EggSpritesheet_19
-  - first:
-      213: -3761205877498082073
-    second: EggSpritesheet_20
-  - first:
-      213: -5117578690793681821
-    second: EggSpritesheet_21
-  - first:
-      213: 531519642767438151
-    second: EggSpritesheet_22
-  - first:
-      213: 8819088461240058720
-    second: EggSpritesheet_23
-  - first:
-      213: 4205995371234381575
-    second: EggSpritesheet_24
-  - first:
-      213: 3344576030807555657
-    second: EggSpritesheet_25
-  - first:
-      213: 5658039123389832414
-    second: EggSpritesheet_26
-  - first:
-      213: -1901242638603274002
-    second: EggSpritesheet_27
-  - first:
-      213: 8695363818350841259
-    second: EggSpritesheet_28
-  - first:
-      213: -5941456333610866013
-    second: EggSpritesheet_29
-  - first:
-      213: -9026580084378331871
-    second: EggSpritesheet_30
-  - first:
-      213: 4068557077413908748
-    second: EggSpritesheet_31
-  - first:
-      213: 115794669010833457
-    second: EggSpritesheet_32
-  - first:
-      213: -9028047703883639980
-    second: EggSpritesheet_33
-  - first:
-      213: -3906064568761608802
-    second: EggSpritesheet_34
-  - first:
-      213: 2065862305868222398
-    second: EggSpritesheet_35
-  - first:
-      213: -2527732780585174448
-    second: EggSpritesheet_36
-  - first:
-      213: -8283358347519886418
-    second: EggSpritesheet_37
-  - first:
-      213: 3499976002579752756
-    second: EggSpritesheet_38
-  - first:
-      213: 8209530408269584547
-    second: EggSpritesheet_39
-  - first:
-      213: -1636484211864943997
-    second: EggSpritesheet_40
-  - first:
-      213: 7635840377509233893
-    second: EggSpritesheet_41
-  - first:
-      213: 4150631234099400643
-    second: EggSpritesheet_42
+      213: 7348443462413264926
+    second: OmeletteCooking_17
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -226,13 +151,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: EggSpritesheet_0
+      name: OmeletteCooking_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1018
-        width: 271
-        height: 127
+        y: 660
+        width: 487
+        height: 94
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2955367c720a47680800000000000000
-      internalID: -8758199282619427438
+      spriteID: 5c22912fdcaa4e000800000000000000
+      internalID: 64364096196780741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EggSpritesheet_1
+      name: OmeletteCooking_1
       rect:
         serializedVersion: 2
-        x: 271
-        y: 1018
-        width: 271
-        height: 127
+        x: 487
+        y: 660
+        width: 487
+        height: 94
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,64 +188,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b7058573e04843f0800000000000000
-      internalID: -916411178496489549
+      spriteID: 5c76f67bcced46d20800000000000000
+      internalID: 3270984200210048965
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EggSpritesheet_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 891
-        width: 271
-        height: 127
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7f4e761ffd2aaf850800000000000000
-      internalID: 6411616102226846967
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EggSpritesheet_3
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 891
-        width: 271
-        height: 127
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9b353dcf28c3b3190800000000000000
-      internalID: -7981719381298949191
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EggSpritesheet_4
+      name: OmeletteCooking_2
       rect:
         serializedVersion: 2
         x: 0
-        y: 764
-        width: 271
-        height: 127
+        y: 566
+        width: 487
+        height: 94
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,20 +210,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9d6655c588b3bba50800000000000000
-      internalID: 6537884740909098713
+      spriteID: 8717e9b969850f080800000000000000
+      internalID: -9155720638565027464
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EggSpritesheet_5
+      name: OmeletteCooking_3
       rect:
         serializedVersion: 2
-        x: 271
-        y: 764
-        width: 271
-        height: 127
+        x: 487
+        y: 566
+        width: 487
+        height: 94
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -351,64 +232,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c5a130e8dc886ee70800000000000000
-      internalID: 9144146509854612060
+      spriteID: 163f6d87a9bc6f7c0800000000000000
+      internalID: -4037816151578315935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EggSpritesheet_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 637
-        width: 271
-        height: 127
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c755e5f2ac4fe5300800000000000000
-      internalID: 242900579139868028
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EggSpritesheet_7
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 637
-        width: 271
-        height: 127
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4b313f06bf772d540800000000000000
-      internalID: 5031215655273305012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EggSpritesheet_8
+      name: OmeletteCooking_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 510
-        width: 271
-        height: 127
+        y: 472
+        width: 487
+        height: 94
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -417,20 +254,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e4fdf955c814b1ee0800000000000000
-      internalID: -1289364797323747506
+      spriteID: f1f3b01737e729680800000000000000
+      internalID: -8749792091744551137
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EggSpritesheet_9
+      name: OmeletteCooking_5
       rect:
         serializedVersion: 2
-        x: 271
-        y: 510
-        width: 271
-        height: 127
+        x: 487
+        y: 472
+        width: 487
+        height: 94
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -439,64 +276,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 69f78ab2b463aacf0800000000000000
-      internalID: -240319933627990122
+      spriteID: e5c10a16c94514750800000000000000
+      internalID: 6287399585415437406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EggSpritesheet_10
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 383
-        width: 271
-        height: 127
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2c75d8e9bebd586b0800000000000000
-      internalID: -5294583981880289342
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EggSpritesheet_11
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 383
-        width: 271
-        height: 127
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1edda3a2c95365000800000000000000
-      internalID: 24265792836787681
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EggSpritesheet_12
+      name: OmeletteCooking_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 256
-        width: 271
-        height: 127
+        y: 378
+        width: 487
+        height: 94
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -505,20 +298,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0ac6af2a946e0d810800000000000000
-      internalID: 1788182256007408800
+      spriteID: 8859c3df0f84e4910800000000000000
+      internalID: 1823475099009586568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EggSpritesheet_13
+      name: OmeletteCooking_7
       rect:
         serializedVersion: 2
-        x: 271
-        y: 256
-        width: 271
-        height: 127
+        x: 487
+        y: 378
+        width: 487
+        height: 94
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -527,20 +320,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ecaca1883385da880800000000000000
-      internalID: -8598119135230375218
+      spriteID: b93abe8271c0d4fc0800000000000000
+      internalID: -3509135241041435749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EggSpritesheet_14
+      name: OmeletteCooking_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 129
-        width: 271
-        height: 127
+        y: 284
+        width: 487
+        height: 94
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -549,20 +342,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b8a85474a7f4e9880800000000000000
-      internalID: -8602350851630724469
+      spriteID: 1b1c8aa5df5ed7310800000000000000
+      internalID: 1404531535119958449
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EggSpritesheet_15
+      name: OmeletteCooking_9
       rect:
         serializedVersion: 2
-        x: 271
-        y: 129
-        width: 271
-        height: 127
+        x: 487
+        y: 284
+        width: 487
+        height: 94
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -571,20 +364,108 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 41851307374688d40800000000000000
-      internalID: 5586825784719398932
+      spriteID: 27405d744c64d6f40800000000000000
+      internalID: 5723308510290445426
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EggSpritesheet_16
+      name: OmeletteCooking_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 190
+        width: 487
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 212fe4d4946442570800000000000000
+      internalID: 8440948882242728466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OmeletteCooking_11
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 190
+        width: 487
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e6bd0d1516c2d330800000000000000
+      internalID: 3734264835027613408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OmeletteCooking_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 487
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bceca07f1e26c9a0800000000000000
+      internalID: -6213227923341775690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OmeletteCooking_13
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 96
+        width: 487
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a2f49c7734c0990800000000000000
+      internalID: -7418480304428471777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OmeletteCooking_14
       rect:
         serializedVersion: 2
         x: 0
         y: 2
-        width: 271
-        height: 127
+        width: 487
+        height: 94
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -593,8 +474,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a6eb148339998c670800000000000000
-      internalID: 8559259949400702570
+      spriteID: 33e0b41af9e0edbb0800000000000000
+      internalID: -4909470465018622413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OmeletteCooking_15
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 2
+        width: 487
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab7c2fcb1e796140800000000000000
+      internalID: 4713437142924950433
       vertices: []
       indices: 
       edges: []
@@ -603,7 +506,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ef6ec4c2ace82df4e84d91de31e14aee
+    spriteID: ecfe979e3e71ece41963601e4d73f5dc
     internalID: 0
     vertices: []
     indices: 
@@ -613,25 +516,24 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":9.0},"gridSpriteSize":{"x":271.0,"y":127.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":8.0},"gridSpriteSize":{"x":487.0,"y":94.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      EggSpritesheet_0: -8758199282619427438
-      EggSpritesheet_1: -916411178496489549
-      EggSpritesheet_10: -5294583981880289342
-      EggSpritesheet_11: 24265792836787681
-      EggSpritesheet_12: 1788182256007408800
-      EggSpritesheet_13: -8598119135230375218
-      EggSpritesheet_14: -8602350851630724469
-      EggSpritesheet_15: 5586825784719398932
-      EggSpritesheet_16: 8559259949400702570
-      EggSpritesheet_2: 6411616102226846967
-      EggSpritesheet_3: -7981719381298949191
-      EggSpritesheet_4: 6537884740909098713
-      EggSpritesheet_5: 9144146509854612060
-      EggSpritesheet_6: 242900579139868028
-      EggSpritesheet_7: 5031215655273305012
-      EggSpritesheet_8: -1289364797323747506
-      EggSpritesheet_9: -240319933627990122
+      OmeletteCooking_0: 64364096196780741
+      OmeletteCooking_1: 3270984200210048965
+      OmeletteCooking_10: 8440948882242728466
+      OmeletteCooking_11: 3734264835027613408
+      OmeletteCooking_12: -6213227923341775690
+      OmeletteCooking_13: -7418480304428471777
+      OmeletteCooking_14: -4909470465018622413
+      OmeletteCooking_15: 4713437142924950433
+      OmeletteCooking_2: -9155720638565027464
+      OmeletteCooking_3: -4037816151578315935
+      OmeletteCooking_4: -8749792091744551137
+      OmeletteCooking_5: 6287399585415437406
+      OmeletteCooking_6: 1823475099009586568
+      OmeletteCooking_7: -3509135241041435749
+      OmeletteCooking_8: 1404531535119958449
+      OmeletteCooking_9: 5723308510290445426
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
