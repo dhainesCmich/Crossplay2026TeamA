@@ -124,12 +124,12 @@ TextureImporter:
       name: Run_FullBag_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 831
+        x: 0
+        y: 617
         width: 201
-        height: 186
+        height: 205
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -146,12 +146,12 @@ TextureImporter:
       name: Run_FullBag_1
       rect:
         serializedVersion: 2
-        x: 203
-        y: 823
-        width: 200
-        height: 192
+        x: 201
+        y: 617
+        width: 201
+        height: 205
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -168,12 +168,12 @@ TextureImporter:
       name: Run_FullBag_2
       rect:
         serializedVersion: 2
-        x: 6
-        y: 611
-        width: 195
-        height: 193
+        x: 0
+        y: 412
+        width: 201
+        height: 205
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -190,12 +190,12 @@ TextureImporter:
       name: Run_FullBag_3
       rect:
         serializedVersion: 2
-        x: 206
-        y: 614
-        width: 196
-        height: 187
+        x: 201
+        y: 412
+        width: 201
+        height: 205
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -212,12 +212,12 @@ TextureImporter:
       name: Run_FullBag_4
       rect:
         serializedVersion: 2
-        x: 12
-        y: 419
-        width: 189
-        height: 192
+        x: 0
+        y: 207
+        width: 201
+        height: 205
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -234,12 +234,12 @@ TextureImporter:
       name: Run_FullBag_5
       rect:
         serializedVersion: 2
-        x: 208
-        y: 418
-        width: 194
-        height: 191
+        x: 201
+        y: 207
+        width: 201
+        height: 205
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -256,12 +256,12 @@ TextureImporter:
       name: Run_FullBag_6
       rect:
         serializedVersion: 2
-        x: 11
-        y: 203
-        width: 190
-        height: 190
+        x: 0
+        y: 2
+        width: 201
+        height: 205
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -278,12 +278,12 @@ TextureImporter:
       name: Run_FullBag_7
       rect:
         serializedVersion: 2
-        x: 213
-        y: 202
-        width: 189
-        height: 193
+        x: 201
+        y: 2
+        width: 201
+        height: 205
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -300,7 +300,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: cd701e1ffd52add4cb9158062048b41f
     internalID: 0
     vertices: []
     indices: 
@@ -308,7 +308,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":4.0},"gridSpriteSize":{"x":201.0,"y":205.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Run_FullBag_0: -7052846335535977258
       Run_FullBag_1: 1608066586964809074
