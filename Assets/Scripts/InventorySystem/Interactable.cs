@@ -19,18 +19,18 @@ public class Interactable : MonoBehaviour
     }
     public virtual void Interact()
     {
-        if (promptCanvas != null)
-                promptCanvas.SetActive(false);
+        // if (promptCanvas != null)
+        //         promptCanvas.SetActive(false);
         Debug.Log("Interacting with " + gameObject.name);
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            if (!promptCanvas)
-                promptCanvas = promptManager.getPrompt();
-            if (promptCanvas != null)
-                promptCanvas.SetActive(true);
+            // if (!promptCanvas)
+            //     promptCanvas = promptManager.getPrompt();
+            // if (promptCanvas != null)
+            //     promptCanvas.SetActive(true);
             Debug.Log("Player in range of object!");
             playerInRange = true;
             player = other.transform;   
@@ -40,10 +40,10 @@ public class Interactable : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            if (!promptCanvas)
-                promptCanvas = promptManager.getPrompt();
-            if (promptCanvas != null)
-                promptCanvas.SetActive(false);
+            // if (!promptCanvas)
+            //     promptCanvas = promptManager.getPrompt();
+            // if (promptCanvas != null)
+            //     promptCanvas.SetActive(false);
             playerInRange = false;
             player = null;
         }
