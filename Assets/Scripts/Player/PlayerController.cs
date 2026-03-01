@@ -110,7 +110,7 @@ public class PlayerController : MonoBehaviour
         horizontal = input.x;
 
         // Drop through platform
-        if (input.y < -0.5f && IsGrounded())
+        if (input.y < -0.5f && IsGrounded() && !IsFloor())
         {
             StartCoroutine(DropThroughPlatform());
         }
@@ -130,6 +130,10 @@ public class PlayerController : MonoBehaviour
     private bool IsGrounded()
     {
         return Physics2D.OverlapCapsule(groundCheck.position, new Vector2(1f, 0.1f), CapsuleDirection2D.Horizontal, 0, groundLayer);
+    }
+    private bool IsFloor()
+    {
+        return Physics2D.OverlapCapsule(groundCheck.position, new Vector2(1f, 0.1f), CapsuleDirection2D.Horizontal, 0, groundLayer, 2f, 3f);
     }
     #endregion
 

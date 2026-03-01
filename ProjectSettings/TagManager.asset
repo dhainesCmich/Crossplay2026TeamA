@@ -6,6 +6,7 @@ TagManager:
   tags:
   - RGBA
   - ColorSlider
+  - Floor
   layers:
   - Default
   - TransparentFX
