@@ -20,7 +20,14 @@ public class ItemPickup : Interactable {
 
 		// If successfully picked up
 		if (wasPickedUp)
-			Destroy(gameObject);	// Destroy item from scene
+    	{
+        	// Notify spawner
+        	FoodSpawner spawner = FindObjectOfType<FoodSpawner>();
+        	if (spawner != null)
+            	spawner.RespawnFood();
+
+        	Destroy(gameObject);
+    	}
 	}
 
 }
