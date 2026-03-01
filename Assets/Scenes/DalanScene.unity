@@ -331,7 +331,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 00000000
+  m_ApplyToSortingLayers: 00000000a5ac0da8afc689c5518b2f3e
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -484,7 +484,7 @@ MonoBehaviour:
     Enabled: 1
     Time: 0
     Smoothing: 1.5
-    IgnoreY: 0
+    IgnoreY: 1
 --- !u!1 &1120444182
 GameObject:
   m_ObjectHideFlags: 0
@@ -900,6 +900,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pan
       objectReference: {fileID: 0}
+    - target: {fileID: 554901555406743295, guid: 6912d303c0234ac4e89614a0f0688bac, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4476747474681230229, guid: 6912d303c0234ac4e89614a0f0688bac, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6436519343778572982, guid: 6912d303c0234ac4e89614a0f0688bac, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6436519343778572982, guid: 6912d303c0234ac4e89614a0f0688bac, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1475498843
+      objectReference: {fileID: 0}
+    - target: {fileID: 6618465156024180188, guid: 6912d303c0234ac4e89614a0f0688bac, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6618465156024180188, guid: 6912d303c0234ac4e89614a0f0688bac, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -980826449
+      objectReference: {fileID: 0}
     - target: {fileID: 8658994134670684100, guid: 6912d303c0234ac4e89614a0f0688bac, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.85
@@ -956,6 +980,14 @@ PrefabInstance:
     - target: {fileID: 4002366157577313949, guid: 8a3a2c86f14fc27458cf5dce70c081f0, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4283511676129227497, guid: 8a3a2c86f14fc27458cf5dce70c081f0, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4283511676129227497, guid: 8a3a2c86f14fc27458cf5dce70c081f0, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1043303249
       objectReference: {fileID: 0}
     - target: {fileID: 6675443676342276846, guid: 8a3a2c86f14fc27458cf5dce70c081f0, type: 3}
       propertyPath: m_LocalPosition.x
