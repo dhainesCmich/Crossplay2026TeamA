@@ -46,7 +46,7 @@
                     "name": "Interact",
                     "type": "Button",
                     "id": "852140f2-7766-474d-8707-702459ba45f3",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "Hold",
                     "initialStateCheck": false
@@ -198,7 +198,7 @@
                 {
                     "name": "",
                     "id": "d354585c-592e-472c-b1d5-4675fe92caa8",
-                    "path": "<Keyboard>/e",
+                    "path": "<Keyboard>/i",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -462,7 +462,7 @@
                 {
                     "name": "",
                     "id": "e5a64a60-69d8-40f3-8f5f-8914ac3f4e1d",
-                    "path": "<Keyboard>/p",
+                    "path": "<Keyboard>/escape",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -853,7 +853,7 @@
                 {
                     "name": "",
                     "id": "320276f1-bc79-4fb7-a080-cabec5ab2914",
-                    "path": "<Keyboard>/p",
+                    "path": "<Keyboard>/escape",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

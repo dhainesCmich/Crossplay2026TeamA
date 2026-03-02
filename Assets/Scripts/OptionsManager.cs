@@ -14,4 +14,9 @@ public class OptionsManager : MonoBehaviour
     {
         
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }
